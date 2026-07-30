@@ -1,0 +1,14 @@
+{
+  "keys": [
+    {
+      "kid": "prf-ed25519-2026-07",
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "G5NEYx7ZW31d5XIQioQcIH7b61F6H0T3j9Ei417w-so",
+      "use": "sig",
+      "alg": "EdDSA",
+      "valid_from": "2026-07-30T21:45:55.140Z",
+      "valid_to": "2028-07-29T21:45:55.140Z"
+    }
+  ]
+}
