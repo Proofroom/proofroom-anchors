@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-08-03T07:50:35.007Z",
-  "merkle_root": "4d94720eced9419e8a51777428c5bdc1445c899465ec2999995e923b8f161e3e",
+  "generated_at": "2026-08-03T14:36:45.440Z",
+  "merkle_root": "fbf7e7d3a93e90a526f5ff5d53cb80941fe0d0e4a4635125830b37a535130101",
   "entries": [
     {
       "subject": "04c10e1a6cc79f79e1243883059d3060386e0c4686f2d8af09eb43cb9aea9f84",
@@ -11,9 +11,9 @@
     },
     {
       "subject": "09b4a2625e6436777288e6fcc50aa351ab67a2b5d6a808becad676a7d2f695b0",
-      "head_hash": "04c575437aab5819a161c1c51f8500fe1dba5c3485c2dd6785a4800942cd1f51",
-      "head_seq": 6,
-      "event_count": 7
+      "head_hash": "61caa4b3eca41f3850e9545c3dad0564d1c367ae50d6e84417bd52b470cd6a43",
+      "head_seq": 11,
+      "event_count": 11
     },
     {
       "subject": "23c32ab7631eb8b7f1d0e1474774e4923310d5702d322c0a2788d3f322d038c0",
@@ -55,9 +55,9 @@
     },
     {
       "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
-      "head_hash": "fe630bbdc9b07ec7c4d340344a6400fbe2ba0425088dbe123c3955dffbeddb2c",
-      "head_seq": 7,
-      "event_count": 7,
+      "head_hash": "f213bd2e2e0719e325e1c19115ee92d0e70bfd2c8845e8f154047c2b544be64d",
+      "head_seq": 9,
+      "event_count": 9,
       "slug": "proofroom-chain-anchors"
     },
     {
@@ -101,16 +101,16 @@
     },
     {
       "subject": "bcc9e9115dfc26b175d89adb93482ab5ca27904c560e12304021f7fbe3742085",
-      "head_hash": "126baa40860f7dbf47f9c43e713e4574baf68db29989c0dae48081e705cc6922",
-      "head_seq": 23,
-      "event_count": 23,
+      "head_hash": "135d91e62a8fa4bfd64e1283a24509af982d6fd37b8c201e2550d30f6864a9bd",
+      "head_seq": 25,
+      "event_count": 25,
       "slug": "proofroom-security"
     },
     {
       "subject": "c58ecdf21cacb1be9c7a4ef9940c24ee9c525d92d06e29f711173f3f17139ed4",
-      "head_hash": "aba0cc520dcffd2e2e78c14fd9476ffab62fd0be216ecc1a33bdbcaf1a5ffd3c",
-      "head_seq": 99,
-      "event_count": 99,
+      "head_hash": "7bac392d2749a7172fc4253e2b05eadb32204258c10ab76bad85196631dfb45d",
+      "head_seq": 102,
+      "event_count": 102,
       "slug": "proofroom-growth"
     },
     {
@@ -122,9 +122,9 @@
     },
     {
       "subject": "deb5126a3313af51b9c595343a781df9e91f70cadfcfc8996ad0fb958e640a1d",
-      "head_hash": "06f516d4886421afb4815916ae15228a469becffdac259d89bd410edfbee7255",
-      "head_seq": 3224,
-      "event_count": 3224,
+      "head_hash": "3988ae98f38104c692f14dce928efa63f5f1d6a30504bb4723deb08af6c049fc",
+      "head_seq": 3240,
+      "event_count": 3240,
       "slug": "proofroom-ops"
     },
     {
