@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://proofroom.ai/schema/action-receipt-1.2.json",
+  "title": "Proofroom Action Receipt",
+  "description": "An open format for agent action receipts (1.2). Backwards compatible with 1.1; adds optional authorization attachment summary. Evidence levels remain exactly three.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "receipt_id",
+    "use_case_public_id",
+    "event_type",
+    "authority_status",
+    "evidence_level",
+    "approval_status",
+    "timestamp",
+    "event_hash"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.2",
+      "description": "Format version of this receipt document."
+    },
+    "receipt_id": {
+      "type": "string",
+      "description": "Public receipt code, e.g. PRF-00042."
+    },
+    "use_case_public_id": {
+      "type": "string",
+      "description": "Public slug of the use case this action belongs to."
+    },
+    "event_type": {
+      "type": "string",
+      "description": "Type of evidence event that minted this receipt."
+    },
+    "authority_status": {
+      "type": "string",
+      "enum": ["in_scope", "out_of_scope", "undeclared", "not_applicable"]
+    },
+    "evidence_level": {
+      "type": "string",
+      "enum": ["self_reported", "system_confirmed", "operator_confirmed"],
+      "description": "Exactly three levels. Authorisation credentials are attachments, not a fourth level."
+    },
+    "approval_status": {
+      "type": "string",
+      "description": "Approval state for this action, or not_applicable."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the underlying action occurred or was recorded (ISO-8601)."
+    },
+    "event_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA-256 hex of the sealed evidence event."
+    },
+    "config_fingerprint": {
+      "type": ["string", "null"],
+      "description": "Opaque configuration fingerprint when declared; null if not declared."
+    },
+    "config_provenance_level": {
+      "type": "string",
+      "enum": ["not_declared", "self_declared", "computed", "externally_anchored"]
+    },
+    "scope_version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Scope commitment version in force when this receipt was minted."
+    },
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional authorisation credential attachment summary. Not an evidence level. Presence means a credential was presented; signature_status is labelled honesty only.",
+      "required": ["protocol", "signature_status"],
+      "properties": {
+        "protocol": {
+          "type": "string",
+          "enum": ["x401", "other"]
+        },
+        "signature_status": {
+          "type": "string",
+          "enum": [
+            "not_checked",
+            "signature_valid",
+            "signature_invalid",
+            "unsupported_format"
+          ]
+        },
+        "issuer": {
+          "type": ["string", "null"],
+          "description": "Claim-level issuer hint only; never a full identity document."
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "description": "Optional opaque lineage edges. to_ref_id must never contain content.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["to_ref_type", "to_ref_id", "relation"],
+        "properties": {
+          "to_ref_type": {
+            "type": "string",
+            "enum": [
+              "receipt",
+              "event",
+              "document",
+              "model",
+              "tool",
+              "approval",
+              "external_system",
+              "configuration"
+            ]
+          },
+          "to_ref_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "authorised_by",
+              "derived_from",
+              "used",
+              "superseded_by",
+              "confirmed_by",
+              "part_of"
+            ]
+          }
+        }
+      }
+    },
+    "signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional Ed25519 signature over the canonical structural fields (see specification).",
+      "properties": {
+        "alg": { "type": "string", "const": "EdDSA" },
+        "key_id": { "type": "string" },
+        "value": { "type": "string", "description": "Base64-encoded signature." }
+      },
+      "required": ["alg", "key_id", "value"]
+    }
+  }
+}
