@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-08-03T07:50:35.007Z",
-  "merkle_root": "4d94720eced9419e8a51777428c5bdc1445c899465ec2999995e923b8f161e3e",
+  "generated_at": "2026-08-03T07:50:37.992Z",
+  "merkle_root": "5483542dd630a76a06eeafc341a3ac08afbbd47118dcfcf6c3b57369ccba3439",
   "entries": [
     {
       "subject": "04c10e1a6cc79f79e1243883059d3060386e0c4686f2d8af09eb43cb9aea9f84",
@@ -11,9 +11,9 @@
     },
     {
       "subject": "09b4a2625e6436777288e6fcc50aa351ab67a2b5d6a808becad676a7d2f695b0",
-      "head_hash": "04c575437aab5819a161c1c51f8500fe1dba5c3485c2dd6785a4800942cd1f51",
-      "head_seq": 6,
-      "event_count": 7
+      "head_hash": "bd96b834af6f4c6654f7cb0caca0d48dd40001a5cedc335c874967f13a2aef73",
+      "head_seq": 9,
+      "event_count": 9
     },
     {
       "subject": "23c32ab7631eb8b7f1d0e1474774e4923310d5702d322c0a2788d3f322d038c0",
