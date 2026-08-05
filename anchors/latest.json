@@ -1,63 +1,27 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-08-03T21:40:22.658Z",
-  "merkle_root": "5d80d56e103ae48d718cdde8f70357ce705a05f0429bff84fd7b71e78cb447e4",
+  "generated_at": "2026-08-05T08:32:30.767Z",
+  "merkle_root": "97c0b8cec236e633af93713c580b4ac197f5a995780e2779c3872eebee126f98",
   "entries": [
     {
-      "subject": "04c10e1a6cc79f79e1243883059d3060386e0c4686f2d8af09eb43cb9aea9f84",
-      "head_hash": "c62251525088f72025836d35833d216028df2a933d9b965adb9e37c484c01c53",
+      "subject": "22592150e537c95bb52c84462e07f0048c9887455698d727651322011510ffeb",
+      "head_hash": "9c36602e78e7686f19c8e46135cf859c5c809f56afda71e326bf18eb201bd7b1",
       "head_seq": 2,
-      "event_count": 2
-    },
-    {
-      "subject": "09b4a2625e6436777288e6fcc50aa351ab67a2b5d6a808becad676a7d2f695b0",
-      "head_hash": "61caa4b3eca41f3850e9545c3dad0564d1c367ae50d6e84417bd52b470cd6a43",
-      "head_seq": 11,
-      "event_count": 11
-    },
-    {
-      "subject": "23c32ab7631eb8b7f1d0e1474774e4923310d5702d322c0a2788d3f322d038c0",
-      "head_hash": "86d2fc93ed9c518d988bd601b725db44512dfe2fd165a3b2382f48eebadc09dc",
-      "head_seq": 6,
-      "event_count": 6,
-      "slug": "v12-integrity-msbrad7y"
-    },
-    {
-      "subject": "309853395ecffcb15240a962d8c1a8dceb8620a85db8e0f2b3a2e1bd3f6c4c87",
-      "head_hash": "6e4f08b7e56b2473f395aa0f0fcb9b7a2389c6992983f9965df15838a3239d44",
-      "head_seq": 2,
-      "event_count": 2
-    },
-    {
-      "subject": "3431677d12ec5572147626e248e130fd688969619f7f40768fdfc6069734a414",
-      "head_hash": "f8a2f02715855651c9dcecded8f633d89df48e9abf3dfb548de28d574b52c722",
-      "head_seq": 1,
-      "event_count": 1
+      "event_count": 2,
+      "slug": "prf-44be3a3138d3"
     },
     {
       "subject": "5412dec723d4f55c89d0c8bd79f1b06b124917a5cc2547ec6033ff977c4468e5",
-      "head_hash": "1ed6d40f863d42c46e9573d2f5569f8fd2cfaee1cabd650a9824e7a5a4112541",
-      "head_seq": 15,
-      "event_count": 15,
+      "head_hash": "a2bf0691e5b176cf7f3fa442aaee2d48a4edf8c3af46a74230ba2a12558a2f36",
+      "head_seq": 17,
+      "event_count": 17,
       "slug": "proofroom-product"
     },
     {
-      "subject": "5ebe9505ef2f73abe99513159525fa0ae1c6f5e2c4cdc23b1236fc09dc835387",
-      "head_hash": "62c6f6e8400ecc2ee3039cb649b835df8e452401f155fea690bd2435f95dc3b7",
-      "head_seq": 2,
-      "event_count": 2
-    },
-    {
-      "subject": "6115d63ba7c9715624666b560e5b4a784b0ba02070fe1c1ecf1e8d3ffefb784d",
-      "head_hash": "f0cf604c573a708b09c37054c9ba737203423957a943dff357e01fcb16fe49a6",
-      "head_seq": 2,
-      "event_count": 2
-    },
-    {
       "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
-      "head_hash": "c39a705d9ed4391401cce59b631a1475e007156d6088e0fedc3b9720e7af9280",
-      "head_seq": 10,
-      "event_count": 10,
+      "head_hash": "157a0576b6ce35bec1abe7ce6c74fad2c5be5cd2c0594b419abb4311fcb84154",
+      "head_seq": 12,
+      "event_count": 12,
       "slug": "proofroom-chain-anchors"
     },
     {
@@ -67,12 +31,6 @@
       "event_count": 12
     },
     {
-      "subject": "968d929ac8458ffcece9e2f5e5901ce96f44783115ded4006d2e26d3e40a41ad",
-      "head_hash": "b95559fb96c6634cdd4dd923a44b1ca7413405f89c8aa115822f52774f4b7d96",
-      "head_seq": 1,
-      "event_count": 1
-    },
-    {
       "subject": "96e534dacd1f9381fbbe2fa1fda9e48b5ab504d63ef9e3d2335aa4b13c82f968",
       "head_hash": "71acdfcfb46823848991319b205c242e2d5ea60c7fea0d87138deab6e60b4cce",
       "head_seq": 32,
@@ -80,31 +38,11 @@
       "slug": "proofroom-support"
     },
     {
-      "subject": "a3638001ac14e2e7a9efd0addcda0d1377e1aabc9a19e2397665ca2bbb81bb84",
-      "head_hash": "025b58b0963a83e14bcc784eb76acc999107cf127981f00c194af263ec4fa928",
-      "head_seq": 2,
-      "event_count": 2
-    },
-    {
       "subject": "a92176a317452fbfc6834829bfc732be15f098b884da8f0a3fbe4587b20c0f59",
       "head_hash": "487e2ab3360d3392a859fa8e5f2a24bf2f4a5555da6d4be34992b7fac433891b",
       "head_seq": 5,
-      "event_count": 1,
+      "event_count": 5,
       "slug": "prf-c81f4556a6c3"
-    },
-    {
-      "subject": "b9ab0d255014c2a1659ddcfa83537f50d8e26dd723e83794aa4426435b24fd8c",
-      "head_hash": "5d15ad0165f1ab89a36e99751083028564471a6023e5c7f11e9eda51ab7d7504",
-      "head_seq": 2,
-      "event_count": 2,
-      "slug": "prov-verify-ms80px2s"
-    },
-    {
-      "subject": "ba507e13a481f2b1ec815a2848b3d4eb9d42974643eb412a6c71c78cc62db9c3",
-      "head_hash": "28ded3b38259a17171ef873ec4b53f7b4eaf594382b2e9ccb3992273623998ad",
-      "head_seq": 4,
-      "event_count": 4,
-      "slug": "prf-2248ebf56b7c"
     },
     {
       "subject": "bcc9e9115dfc26b175d89adb93482ab5ca27904c560e12304021f7fbe3742085",
@@ -115,45 +53,24 @@
     },
     {
       "subject": "c58ecdf21cacb1be9c7a4ef9940c24ee9c525d92d06e29f711173f3f17139ed4",
-      "head_hash": "ca49ceaff580eed6db6a413521a9991c386caab0adce32c30fccc364830e52fd",
-      "head_seq": 105,
-      "event_count": 105,
+      "head_hash": "a4b34b237729716defcacea0d81be6d16bde202a4a2f7833336b1fe12ab56976",
+      "head_seq": 109,
+      "event_count": 109,
       "slug": "proofroom-growth"
     },
     {
-      "subject": "d577f3ff9f0fa1cee50d6d7eedc14da85766a1191c3a14dbc05fa11032be15d4",
-      "head_hash": "28db8e7c185f1db0eea8bbc8dfbb262068a3a3dff5ed98048ad2fc8bb40e45dc",
-      "head_seq": 1,
-      "event_count": 1,
-      "slug": "v11-uc-msbos1lp-0"
-    },
-    {
       "subject": "deb5126a3313af51b9c595343a781df9e91f70cadfcfc8996ad0fb958e640a1d",
-      "head_hash": "7f44a9b5bba1d14ef631892436119f806c92f2297fb94dcdcc8153248e28e1a9",
-      "head_seq": 3260,
-      "event_count": 3260,
+      "head_hash": "5bb4fa19381ce5b23d42ad36214eb044bbf6fd514780f98c40fb6ca8c8020150",
+      "head_seq": 3350,
+      "event_count": 3350,
       "slug": "proofroom-ops"
     },
     {
-      "subject": "e25561667a9fa241d4beda4ee7135d2aa5d7e90539b38cfe51202f2610e42da6",
-      "head_hash": "6a5152c96ace0f93eeda72a0da7c5c732b7837f5ecfc92f038ccab84898ccfb0",
-      "head_seq": 4,
-      "event_count": 4,
-      "slug": "prf-f46e5c5a12f0"
-    },
-    {
       "subject": "e9f3d9a4449195d49f8b3f8093e39582349401fc6bf174f5b66c41d7eb6ad236",
-      "head_hash": "f0e4ee912efb26b84ec90626cbee38ae1d7dccbdabf5229cac97ec5a53442993",
-      "head_seq": 145,
-      "event_count": 145,
+      "head_hash": "7e5872def0c2976616759023734fd5f9bdbbfe1307f2c3c6ab4f392129c9f8b1",
+      "head_seq": 150,
+      "event_count": 150,
       "slug": "proofroom-finance"
-    },
-    {
-      "subject": "fd6ad808e3978eb3852aedb5cacf62c663743ce842ebb247bca8e99e666e08e7",
-      "head_hash": "baaf17a90db85761c0d5feffb2f1170200cd515649826351d910dd620947d5c4",
-      "head_seq": 1,
-      "event_count": 1,
-      "slug": "v11-uc-msbosds4-0"
     }
   ]
 }
