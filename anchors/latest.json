@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-08-06T01:25:18.366Z",
-  "merkle_root": "07f7d0e10f8a0dde59c1129a3b8ffa54541104c3567cb9eb57cb23feb1834f93",
+  "generated_at": "2026-08-07T01:25:18.062Z",
+  "merkle_root": "409666c0c4d358897394a8b73daa03866276770f9efcaac6ee2770405fbaac1e",
   "entries": [
     {
       "subject": "22592150e537c95bb52c84462e07f0048c9887455698d727651322011510ffeb",
@@ -19,9 +19,9 @@
     },
     {
       "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
-      "head_hash": "33b4d48d39c7feaa54ed432ae6729a6c6bf2b3e6690a8442ff61a492aeacc6d6",
-      "head_seq": 13,
-      "event_count": 13,
+      "head_hash": "d8bed5df1d6be10bfe19aeec3369db0b6ffe31c522331c78d80a9a6636941485",
+      "head_seq": 14,
+      "event_count": 14,
       "slug": "proofroom-chain-anchors"
     },
     {
@@ -46,9 +46,9 @@
     },
     {
       "subject": "bcc9e9115dfc26b175d89adb93482ab5ca27904c560e12304021f7fbe3742085",
-      "head_hash": "2c106b972295433c82b4d3508477c910c75f538460d6e7b6a03991958984268f",
-      "head_seq": 26,
-      "event_count": 26,
+      "head_hash": "59bf42203745898ab01f6d2ff19ca441d70a7b3ade05b6e78ea7514e52b4dd21",
+      "head_seq": 29,
+      "event_count": 29,
       "slug": "proofroom-security"
     },
     {
@@ -60,16 +60,16 @@
     },
     {
       "subject": "deb5126a3313af51b9c595343a781df9e91f70cadfcfc8996ad0fb958e640a1d",
-      "head_hash": "dffebf1f2af8ccc83e069018fc70c2708ebc55df3da2b001f45e381f3109c1c9",
-      "head_seq": 3457,
-      "event_count": 3457,
+      "head_hash": "acb9fafddb679776111b378f97e263c23ecbe55d529ffd22c00b45d3559edb30",
+      "head_seq": 3606,
+      "event_count": 3606,
       "slug": "proofroom-ops"
     },
     {
       "subject": "e9f3d9a4449195d49f8b3f8093e39582349401fc6bf174f5b66c41d7eb6ad236",
-      "head_hash": "7e5872def0c2976616759023734fd5f9bdbbfe1307f2c3c6ab4f392129c9f8b1",
-      "head_seq": 150,
-      "event_count": 150,
+      "head_hash": "cb718f6c58c33b5f081db7a9a2deba5ee6ee251b6460c0cd015253180923b49d",
+      "head_seq": 153,
+      "event_count": 153,
       "slug": "proofroom-finance"
     }
   ]
