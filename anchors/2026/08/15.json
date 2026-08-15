@@ -1,0 +1,76 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-08-15T01:25:17.851Z",
+  "merkle_root": "99a7461898252f11e001f76062434e5ff1cc196c6183699d3682b24406bf40bc",
+  "entries": [
+    {
+      "subject": "22592150e537c95bb52c84462e07f0048c9887455698d727651322011510ffeb",
+      "head_hash": "9c36602e78e7686f19c8e46135cf859c5c809f56afda71e326bf18eb201bd7b1",
+      "head_seq": 2,
+      "event_count": 2,
+      "slug": "prf-44be3a3138d3"
+    },
+    {
+      "subject": "5412dec723d4f55c89d0c8bd79f1b06b124917a5cc2547ec6033ff977c4468e5",
+      "head_hash": "a2bf0691e5b176cf7f3fa442aaee2d48a4edf8c3af46a74230ba2a12558a2f36",
+      "head_seq": 17,
+      "event_count": 17,
+      "slug": "proofroom-product"
+    },
+    {
+      "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
+      "head_hash": "df3b77a362355f84bb4901a5f93a685d53e65d132733ff5e8ffcf2f7aa423ad0",
+      "head_seq": 22,
+      "event_count": 22,
+      "slug": "proofroom-chain-anchors"
+    },
+    {
+      "subject": "7ad2ac3d08d5408bfdb51d508b223f85edcb21b7f5a2be3aaf707ed09f126a83",
+      "head_hash": "2b78f76760ed62038b2445f48fcb2f4560f98e6674c610f630906e8a14189cda",
+      "head_seq": 12,
+      "event_count": 12
+    },
+    {
+      "subject": "96e534dacd1f9381fbbe2fa1fda9e48b5ab504d63ef9e3d2335aa4b13c82f968",
+      "head_hash": "71acdfcfb46823848991319b205c242e2d5ea60c7fea0d87138deab6e60b4cce",
+      "head_seq": 32,
+      "event_count": 32,
+      "slug": "proofroom-support"
+    },
+    {
+      "subject": "a92176a317452fbfc6834829bfc732be15f098b884da8f0a3fbe4587b20c0f59",
+      "head_hash": "487e2ab3360d3392a859fa8e5f2a24bf2f4a5555da6d4be34992b7fac433891b",
+      "head_seq": 5,
+      "event_count": 5,
+      "slug": "prf-c81f4556a6c3"
+    },
+    {
+      "subject": "bcc9e9115dfc26b175d89adb93482ab5ca27904c560e12304021f7fbe3742085",
+      "head_hash": "2d65eebddd57d3975f45c9f127532cd0ad02a5cf5825804494d00c4b51bf5f40",
+      "head_seq": 33,
+      "event_count": 33,
+      "slug": "proofroom-security"
+    },
+    {
+      "subject": "c58ecdf21cacb1be9c7a4ef9940c24ee9c525d92d06e29f711173f3f17139ed4",
+      "head_hash": "519b2fad4b1204bd32e707ac43c2e1ebb4cb068ac130305a89e928e091fa6d9c",
+      "head_seq": 117,
+      "event_count": 117,
+      "slug": "proofroom-growth"
+    },
+    {
+      "subject": "deb5126a3313af51b9c595343a781df9e91f70cadfcfc8996ad0fb958e640a1d",
+      "head_hash": "2572cdd7e70111f18c3489913cd36b2b448fe60c94e6c3d69c4fd2acb3345c8b",
+      "head_seq": 5251,
+      "event_count": 5251,
+      "slug": "proofroom-ops"
+    },
+    {
+      "subject": "e9f3d9a4449195d49f8b3f8093e39582349401fc6bf174f5b66c41d7eb6ad236",
+      "head_hash": "b66c7f9b2605b5cc872123b203237095e3190ccd1221e79136c20bd9a91db883",
+      "head_seq": 169,
+      "event_count": 169,
+      "slug": "proofroom-finance"
+    }
+  ]
+}
