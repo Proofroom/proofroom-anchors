@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-08-25T01:54:41.852Z",
-  "merkle_root": "20012252a1365ea956b880135d8847a4bcc5ffda9e4d71c42f634ef09b582ae1",
+  "generated_at": "2026-08-26T01:54:41.690Z",
+  "merkle_root": "ee0212695ad68bab009f995df9e55eb259f9e2aae4523a3c5d9f93acc779efb1",
   "entries": [
     {
       "subject": "22592150e537c95bb52c84462e07f0048c9887455698d727651322011510ffeb",
@@ -19,9 +19,9 @@
     },
     {
       "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
-      "head_hash": "ca4670a30677284738f9310edf85078c5d063739c2dbe0ffe29f4cb266587039",
-      "head_seq": 32,
-      "event_count": 32,
+      "head_hash": "3aefabe8b9f7c4167b1bc0257cf8df9aaa0f25e286d41a706bb657f7ca9985d1",
+      "head_seq": 33,
+      "event_count": 33,
       "slug": "proofroom-chain-anchors"
     },
     {
@@ -67,16 +67,16 @@
     },
     {
       "subject": "deb5126a3313af51b9c595343a781df9e91f70cadfcfc8996ad0fb958e640a1d",
-      "head_hash": "9b44992decf58c915e61a027e65dd528dd0759999738ba3c08a1d368722d458d",
-      "head_seq": 6737,
-      "event_count": 6737,
+      "head_hash": "28603b0f6bac098ad57bd016a9111d3bd09be37928440d3f6ace471517dc1247",
+      "head_seq": 6788,
+      "event_count": 6788,
       "slug": "proofroom-ops"
     },
     {
       "subject": "e9f3d9a4449195d49f8b3f8093e39582349401fc6bf174f5b66c41d7eb6ad236",
-      "head_hash": "b148dbb39c3b9f6ee474fc1b37c2da942d093fd37df1a9416b24d3e32fce549f",
-      "head_seq": 186,
-      "event_count": 186,
+      "head_hash": "231de884b650691c816b468d58002addfd8e4723c1ba36c27836bc281e2e5857",
+      "head_seq": 187,
+      "event_count": 187,
       "slug": "proofroom-finance"
     }
   ]
