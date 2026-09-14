@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-09-14T02:02:09.693Z",
-  "merkle_root": "44bc4ad1a8c23512e3ef37ceda8e5bd7a05acb6d3b879213c483c904825f1b54",
+  "generated_at": "2026-09-14T02:15:08.289Z",
+  "merkle_root": "395a6d7e4cac74234e503a1598e5d209f098ffc46d743448c880e14b0536dfd4",
   "entries": [
     {
       "subject": "22592150e537c95bb52c84462e07f0048c9887455698d727651322011510ffeb",
@@ -19,9 +19,9 @@
     },
     {
       "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
-      "head_hash": "1a2943dd24ecfefb4b62e83f910de19f86c2053e19eeb318ff67137b36dd7f7f",
-      "head_seq": 53,
-      "event_count": 53,
+      "head_hash": "2c4a4b3c4aeb0477e51f7163558aded2a985b75158dc5e363cacd3413d6ada9f",
+      "head_seq": 54,
+      "event_count": 54,
       "slug": "proofroom-chain-anchors"
     },
     {
