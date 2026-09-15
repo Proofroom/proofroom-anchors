@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
-  "generated_at": "2026-09-14T02:15:08.289Z",
-  "merkle_root": "395a6d7e4cac74234e503a1598e5d209f098ffc46d743448c880e14b0536dfd4",
+  "generated_at": "2026-09-15T02:02:09.219Z",
+  "merkle_root": "c40f0f451a75f75e50507d7fe67db688099e900125afb9363f047f0f81b104f0",
   "entries": [
     {
       "subject": "22592150e537c95bb52c84462e07f0048c9887455698d727651322011510ffeb",
@@ -19,9 +19,9 @@
     },
     {
       "subject": "6f565dcbfc6262db00ce2eb698ef48105b77da556e49b38a0290bf44cfabdad3",
-      "head_hash": "2c4a4b3c4aeb0477e51f7163558aded2a985b75158dc5e363cacd3413d6ada9f",
-      "head_seq": 54,
-      "event_count": 54,
+      "head_hash": "2bef12ee08752be2475da81b9fc2ffeef282930dcff4c7adf00ce1611c83c950",
+      "head_seq": 55,
+      "event_count": 55,
       "slug": "proofroom-chain-anchors"
     },
     {
@@ -67,9 +67,9 @@
     },
     {
       "subject": "deb5126a3313af51b9c595343a781df9e91f70cadfcfc8996ad0fb958e640a1d",
-      "head_hash": "3f73e393bf954367e10038e0ae6689bee880096ce2c4e9f012eae711136abc6e",
-      "head_seq": 9184,
-      "event_count": 9184,
+      "head_hash": "1bc55f54b989a23312b7d40066606ca0115d8598d3f7660ca11f69153be1924c",
+      "head_seq": 9448,
+      "event_count": 9448,
       "slug": "proofroom-ops"
     },
     {
